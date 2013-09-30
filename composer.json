@@ -1,0 +1,19 @@
+{
+    "name": "dudod/guestbook",
+    "description": "Test Guest Book",
+    "authors": [
+        {
+            "name": "dudod",
+            "email": "reedwalter24@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "app/controllers",
+            "app/models",
+            "app/core"
+        ]                                                                                                                            }
+}
