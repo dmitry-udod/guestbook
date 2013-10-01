@@ -19,4 +19,17 @@ class PostsController extends BaseController
 
         return $this->twig->render('index.html.twig', compact('posts'));
     }
+
+    /**
+     * Save new post
+     *
+     * @param $params
+     * @return mixed
+     */
+    public function save($params)
+    {
+        $params['created_at'] = date('Y-m-d H:i:s');
+
+        return Db::getInstance()->save($params);
+    }
 }

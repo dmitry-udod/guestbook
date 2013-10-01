@@ -3,7 +3,6 @@
 namespace models;
 
 use core\Db;
-use MongoCollection;
 
 class Post
 {

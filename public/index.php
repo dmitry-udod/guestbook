@@ -19,7 +19,7 @@ $controller = new PostsController($twig);
 
 // If we have post data save it
 if (!empty($_POST)) {
-    Db::getInstance()->save($_POST);
+    $controller->save($_POST);
 }
 
 // Show all posts
