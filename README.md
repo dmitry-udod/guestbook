@@ -1,4 +1,4 @@
-Tes GuestBook
+Test GuestBook
 =========
 
 ###Install
