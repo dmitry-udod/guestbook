@@ -2,8 +2,6 @@
 
 namespace models;
 
-use core\Db;
-
 class Post
 {
     /**

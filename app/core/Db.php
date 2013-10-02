@@ -22,7 +22,7 @@ class Db extends Singleton
                 "password" => self::DB_PASS,
                 'db'       => self::DB_NAME,
             ));
-        } catch(\Exception $e) {
+        } catch (\Exception $e) {
             die($e->getMessage());
         }
     }
@@ -40,7 +40,7 @@ class Db extends Singleton
     /**
      * Save data to storage
      *
-     * @param array $params
+     * @param  array      $params
      * @return array|bool
      */
     public function save(array $params)
@@ -53,7 +53,7 @@ class Db extends Singleton
     /**
      * Get all data from collection
      *
-     * @param string $collectionName
+     * @param  string $collectionName
      * @return array
      */
     public function findAll($collectionName)

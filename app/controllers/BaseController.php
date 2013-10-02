@@ -6,7 +6,7 @@ class BaseController
 {
     protected $twig;
 
-    function __construct($twig)
+    public function __construct($twig)
     {
         $this->twig = $twig;
     }

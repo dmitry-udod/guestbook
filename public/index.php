@@ -3,7 +3,6 @@
 require_once __DIR__.'/../vendor/autoload.php';
 
 use controllers\PostsController;
-use core\Db;
 
 // Load twig
 $loader = new Twig_Loader_Filesystem(__DIR__.'/../app/views');
